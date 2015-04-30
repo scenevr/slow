@@ -1,0 +1,23 @@
+{
+  "name": "scene-slow",
+  "version": "1.0.0",
+  "description": "Generate a report on the performance of the scene",
+  "repository" : { 
+    "type" : "git",
+    "url" : "https://github.com/scenevr/slow.git"
+  },
+  "bin": "./index.js",
+  "scripts": {
+    "test": "semistandard && tape test.js"
+  },
+  "author": "bnolan@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "htmlparser2": "^3.8.2",
+    "ws": "^0.7.1"
+  },
+  "devDependencies": {
+    "semistandard": "^4.1.3",
+    "tape": "^4.0.0"
+  }
+}
