@@ -7,9 +7,6 @@
     "url" : "https://github.com/scenevr/slow.git"
   },
   "bin": "./index.js",
-  "scripts": {
-    "test": "semistandard && tape test.js"
-  },
   "author": "bnolan@gmail.com",
   "license": "MIT",
   "dependencies": {
